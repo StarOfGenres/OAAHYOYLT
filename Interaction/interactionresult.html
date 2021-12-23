@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interactionresult.css">
+    <title>Result</title>
+</head>
+<body>
+
+    <div id="forgap">
+    <section id="FirstSection">
+        <h1>YOU SPENT <span id="js">X</span>% OF YOUR LIFE <span id="js2">X</span></h1>
+        <a href="#"><img src ="back.png" id = "back"></a>
+    </section>
+    </div>
+
+
+</body>
+
+    <script>
+        document.getElementById ("js").innerHTML=sessionStorage.getItem ("Results")
+        document.getElementById ("js2").innerHTML=sessionStorage.getItem ("Regrets")
+    </script>
+
+
+</html>

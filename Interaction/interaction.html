@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="stylesheet" href="interaction.css">
+    <title>Interaction</title>
+</head>
+<body>
+
+    <section class="topnav">
+        <a href="#"><img src="Introduction.png" id= "introduction"></a>
+        <a href="#"><img src="Interaction.png" id= "interaction"></a>
+        <a href="#"><img src="Simulation.png" id= "simulation"></a>
+        <a href="#"><img src="Submission.png" id= "submission"></a>
+
+    </section>
+
+
+    <form autocomplete="off" action="interactionresult.html" method="GET">
+        <input type="number" placeholder="IN YEARS" id="t1">
+        <input type="text" placeholder="YOUR REGRETS" id="t2">
+        <input type="number" placeholder="IN YEARS" id="t3">
+    
+        <input type="submit" value="Enter" id="b1" onclick="calculator()">
+
+    </form> 
+    
+        
+
+    <section id="FirstSection">
+        <h1 id="ask1">HOW LONG DO YOU THINK YOU WILL LIVE?</h1>
+        <h1 id="ask2">WHAT’S YOUR WORST REGRETS?</h1>
+        <h1 id="ask3">HOW LONG HAVE YOU BEEN REGRETING IT?</h1>
+    </section>
+
+
+</body>
+
+<script>
+
+    function calculator() {
+        let Ans1 = parseInt(document.getElementById("t1").value)
+        let Ans2 = document.getElementById("t2").value
+        let Ans3 = parseFloat(document.getElementById("t3").value)
+
+        let results = Math.round(Ans3/Ans1 * 100) 
+        console.log (results)
+        sessionStorage.setItem ("Results", results)
+        sessionStorage.setItem ("Regrets", Ans2)
+
+
+
+/*
+        document.write("<h1> You spent <h1>")
+        document.write(results);
+        document.write("<h1> % Of your live <h1>")
+        document.write(Ans2);
+*/
+    }
+
+</script>
+
+
+</html>

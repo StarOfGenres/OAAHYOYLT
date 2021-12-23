@@ -1,0 +1,68 @@
+@media only screen and (min-width: 1920px) {
+
+    * {
+        position: relative;
+        width: 1920px;
+        height: 1178px;
+        top: 0;
+        margin: 0;
+        overflow-x: hidden;
+
+    }
+
+
+
+
+    #FirstSection {
+        width: 1918px;
+        height: 1178;
+        top: 0;
+        left: 0;     
+    }
+
+    #forgap {
+        background-image: url("Background2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 300px;
+    }
+
+    
+    h1 {
+        width: 1439px;
+        height: auto;
+        left: 226px;
+        top: 269px;
+        
+        font-family: a Big Deal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 144px;
+        line-height: 155px;
+        text-align: center;
+        
+        color: #D00704;
+    }
+
+    #back {
+        width: 155px;
+        height: 49px;
+        left: 880px;
+        top: 500px;
+        transition: transform .2s;
+        display:block;
+    }
+
+    #back:hover {
+        transform: scale(1.1);
+    }
+
+    #emptyspace {
+        padding: 50px;
+    }
+
+
+
+
+}
