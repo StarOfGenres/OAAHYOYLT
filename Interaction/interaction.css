@@ -166,7 +166,13 @@
         text-align: center;
         
         color: #D5D2CD;
+        transition: transform .2s;
         
+    }
+
+    #b1:hover {
+        cursor:pointer;
+        transform: scale(1.1);
     }
 
     input {
