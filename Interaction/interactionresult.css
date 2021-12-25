@@ -1,16 +1,10 @@
 @media only screen and (min-width: 1920px) {
 
     * {
-        position: relative;
-        width: 1920px;
-        height: 1178px;
-        top: 0;
         margin: 0;
         overflow-x: hidden;
 
     }
-
-
 
 
     #FirstSection {
@@ -30,15 +24,13 @@
 
     
     h1 {
-        width: 1439px;
-        height: auto;
-        left: 226px;
-        top: 269px;
+        margin: 5.8% 16.7% 0;
+        
         
         font-family: aBigDeal;
         font-style: normal;
         font-weight: normal;
-        font-size: 144px;
+        font-size: 10rem;
         line-height: 155px;
         text-align: center;
         
@@ -48,8 +40,9 @@
     #back {
         width: 155px;
         height: 49px;
-        left: 880px;
-        top: 500px;
+        margin-left:auto;
+        margin-top:100px;
+        margin-right:auto;
         transition: transform .2s;
         display:block;
     }
