@@ -1,0 +1,254 @@
+@media only screen and (min-width: 1920px) {
+
+    
+    * {
+        top: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-y: hidden;
+    }
+
+
+    #content1 > h1{
+        display:block;
+        width: 883px;
+        height: 201px;
+        margin-top:303px;
+        margin-left: 509px;
+        margin-right: 549px;
+        font-family: aBigDeal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 77px;
+        text-align: center;
+        
+        color: #D00704;
+    }
+
+    #submit {
+        display:block;
+        width: 264px;
+        height: 128px;
+        margin-left: 811px;
+        margin-right: 504px;
+        transition: transform .2s;
+    }
+    
+    #submit:hover {
+        transform: scale(1.1);
+    }
+
+    #content2 {
+        display:block;
+    }
+
+    #content2 img{
+        width: 1218px;
+        height: 381px;
+        margin-left: 347px;
+        margin-top: 142px;
+        margin-right: 355px;
+    }
+
+    #content3to5 {
+        margin-top: 79px;
+        margin-left: 263px;
+    }
+
+    #content3 {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+        overflow: hidden;
+    }  
+    #content3 img {
+        width: 465px;
+        height: 465px;
+        margin: 0px;
+    }
+
+    #content4 {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+        overflow: hidden;
+    }  
+    #content4 img {
+        width: 465px;
+        height: 465px;
+        margin: 0px;
+    }
+
+    #content5 {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+        overflow: hidden;
+    }  
+    #content5 img {
+        width: 465px;
+        height: 465px;
+        margin: 0px;
+    }
+
+    /* SIBLING FADE: fade out siblings around a hovered item */
+
+    #content3 { visibility: hidden; }
+    /* Prevents :hover from triggering in the gaps between items */
+
+    #content3 > * { visibility: visible; }
+    /* Brings the child items back in, even though the parent is `hidden` */
+
+    #content3 > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+    /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+    #content3 > * { opacity: 0.4; transform: scale(0.9); }
+    /* Fade out all items when the parent is hovered */
+
+    #content3 > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+    /* Fade in the currently hovered item */
+
+
+
+
+
+   /* SIBLING FADE: fade out siblings around a hovered item */
+
+   #content4 { visibility: hidden; }
+   /* Prevents :hover from triggering in the gaps between items */
+
+   #content4 > * { visibility: visible; }
+   /* Brings the child items back in, even though the parent is `hidden` */
+
+   #content4 > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+   /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+   #content4 > * { opacity: 0.4; transform: scale(0.9); }
+   /* Fade out all items when the parent is hovered */
+
+   #content4 > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+   /* Fade in the currently hovered item */
+
+
+
+
+
+   /* SIBLING FADE: fade out siblings around a hovered item */
+
+   #content5 { visibility: hidden; }
+   /* Prevents :hover from triggering in the gaps between items */
+
+   #content5 > * { visibility: visible; }
+   /* Brings the child items back in, even though the parent is `hidden` */
+
+   #content5 > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+   /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+   #content5 > * { opacity: 0.4; transform: scale(0.9); }
+   /* Fade out all items when the parent is hovered */
+
+   #content5 > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+   /* Fade in the currently hovered item */
+
+
+    #firstsectionbackground {
+        position: absolute;
+        width: 1920px;
+        height: 6000px;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        background-image: url("Background.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* NAVIGATION */
+    .topnav {
+        position: fixed;
+        z-index: 100;
+        height: 121px;
+        width: 100%;
+        left: 0px;
+        top: 0;
+        border-radius: 0px;
+
+        background: #E7E8E5;
+        box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+    
+    }
+
+    #introduction {
+        position: absolute;
+        width: 343px;
+        height: 63px;
+        left: 220px;
+        top: 31.4599609375px;
+        padding: 12px, 17px, 12px, 17px;
+        transition: transform .2s;
+        
+    }
+
+    #introduction:hover {
+        transform: scale(1.1);
+    }
+    
+    #interaction {
+        position: absolute;
+        width: 343px;
+        height: 71.39px;
+        left: 600px;
+        top: 31.46px;
+        transition: transform .2s;
+        
+    }
+
+    #interaction:hover {
+        transform: scale(1.1);
+    }
+
+    #simulation {
+        position: absolute;
+        width: 343px;
+        height: 71.39px;
+        left: 978px;
+        top: 31.46px;
+        transition: transform .2s;
+    }
+
+    #simulation:hover {
+        transform: scale(1.1);
+    }
+
+
+    #submission {
+        position: absolute;
+        width: 343px;
+        height: 71.39px;
+        left: 1356px;
+        top: 31.46px;
+        transition: transform .2s;
+    }
+
+    #submission:hover {
+        transform: scale(1.1);
+    }
+
+
+    /* Animation */
+
+    
+
+ /* NAVIGATION */
+
+
+
+
+
+
+}
