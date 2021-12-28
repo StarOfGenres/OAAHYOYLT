@@ -585,3 +585,315 @@
 
 
 }
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+     
+    
+    * {
+        top: 0;
+        margin: 0;
+        overflow-x: hidden;
+        cursor:auto;
+    }
+      
+    body {
+        width: 1024px;
+        height: 4885px;
+        
+        overflow-y: hidden;
+    }
+    
+
+    #FirstSectionBackground {
+        position: absolute;
+        width: 1024px;
+        height: 1854px;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        background-image: url("background1024.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #center {
+        display: block;
+        margin-left: 53px;
+        margin-right: 185px;
+        width: 88.6%;
+        margin-top: 118px;
+
+    }
+
+    #head1 {
+        z-index: 90;
+
+        width: 707px;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 168px;
+        
+        font-family: aBigDeal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 75px;
+        text-align: center;
+        
+        color: #D00704;
+        
+
+    }
+
+    #Preview {
+        width: 600px;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    #Preview > div:first-child {
+        margin-bottom: 50px;
+    }
+
+    #Preview div {
+        position:relative;
+    }
+
+    #Desktop {
+        position:absolute;
+        left: 222px;
+        top: 112px;
+        transition: transform .2s;
+    }
+
+    #Desktop:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+    }
+    
+    #Mobile {
+        position:absolute;
+        left: 222px;
+        top: 112px;
+        transition: transform .2s;
+    }
+
+    #Mobile:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+    }
+
+    #content {
+        display: inline-block;
+        margin-left: 17px;
+        height: 647px;
+
+    }
+
+    .contentblock {
+        width: 286px;
+        overflow: hidden;
+        font-family: SF;
+        font-style: normal;
+        color: #D00704;  
+        font-weight: 800;
+    }
+
+    .contentblock > h1{
+        font-size: 26px;
+        line-height: 31px;
+        margin-bottom: 18px;
+    }
+
+    .contentblock > p{
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 28px;
+    }
+
+    #gamespic {
+        display: inline-block;
+        margin-left: 138px;
+        margin-top: 60px;
+    }
+
+    /* NAVIGATION */
+    .topnav {
+        position: fixed;
+        z-index: 100;
+        height: 121px;
+        width: 100%;
+        left: 0px;
+        top: 0;
+        border-radius: 0px;
+
+        background: #E7E8E5;
+        box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+    
+    }
+
+    #introduction1366 {
+        width: 184px;
+        height: 71.54px;
+        margin-top:20px;
+        margin-left:135px;
+        transition: transform .2s;
+    }
+
+    #introduction1366:hover {
+        transform: scale(1.1);
+    }
+
+    #interaction1366 {
+        width: 184px;
+        height: 71.54px;
+        margin-top:20px;
+        margin-left:101px;
+        transition: transform .2s;
+    }
+
+    #interaction1366:hover {
+        transform: scale(1.1);
+    }
+    
+    #simulation1366 {
+        width: 184px;
+        height: 71.54px;
+        margin-top:20px;
+        margin-left:101px;
+        transition: transform .2s;
+    }
+
+    #simulation1366:hover {
+        transform: scale(1.1);
+    }
+
+
+    #secondsectionbackground {
+        position: absolute;
+        width: 1024px;
+        height: 3031px;
+        margin-top:1856px;
+        z-index: -4;
+        background-image: url("background21024.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    :root {
+        cursor: none;
+        --cursorX: 50vw;
+        --cursorY: 50vh;
+    }
+    :root:before {
+        z-index: -2;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        pointer-events: none;
+        background: radial-gradient(
+        circle 10vmax at var(--cursorX) var(--cursorY),
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,.5) 100%,
+        rgba(0,0,0,.95) 150%
+        )
+    }
+
+
+    
+    
+    
+    /* NAVIGATION */
+      .topnav {
+        position: fixed;
+        z-index: 100;
+        height: 121px;
+        width: 1024px;
+        left: 0px;
+        top: 0;
+        border-radius: 0px;
+        background: #E7E8E5;
+        box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+    
+  }
+
+    #introduction1366 {
+        width: 184px;
+        height: 71.54px;
+        margin-top:20px;
+        margin-left:50px;
+        transition: transform .2s;
+    }
+
+    #introduction1366:hover {
+        transform: scale(1.1);
+    }
+
+    #interaction1366 {
+        width: 184px;
+        height: 71.54px;
+        margin-top:20px;
+        margin-left:50px;
+        transition: transform .2s;
+    }
+
+    #interaction1366:hover {
+        transform: scale(1.1);
+    }
+    
+    #simulation1366 {
+        width: 184px;
+        height: 71.54px;
+        margin-top:20px;
+        margin-left:50px;
+        transition: transform .2s;
+    }
+
+    #simulation1366:hover {
+        transform: scale(1.1);
+    }
+
+    #submission1366 {
+        width: 184px;
+        height: 71.54px;
+        margin-top:20px;
+        margin-left:50px;
+
+        transition: transform .2s;
+    }
+
+    #submission1366:hover {
+        transform: scale(1.1);
+    }
+
+
+
+  /* Removing Images */
+    #introduction {
+        display:none;
+    }
+
+    #simulation {
+        display:none;
+    }
+
+    #interaction {
+        display:none;
+    }
+
+    #submission {
+        display:none;
+    }
+
+         /* NAVIGATION */
+ }
+
