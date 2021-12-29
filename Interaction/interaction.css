@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1920px) {
     * {
         position: relative;
-        width: 1920px;
+        width: 100%;
         height: 1178px;
         overflow-x: hidden;
         margin:0;
@@ -22,7 +22,7 @@
     
     #FirstSection {
         position: absolute;
-        width: 1920px;
+        width: 100%;
         height: 1178px;
         left: 0;
         top: 0;
@@ -34,11 +34,11 @@
     }
 
     #ask1 {
-        position: absolute;
-        width: 646px;
+        display:inline-block;
+        width: 30%;
         height: 283px;
-        left: calc(50% - 646px/2 - 439px);
-        top: calc(50% - 283px/2 - 229.5px);
+        margin-top: 224px;
+        margin-left:10%;
         
         font-family: aBigDeal;
         font-style: normal;
@@ -50,11 +50,11 @@
     }
 
     #ask2 {
-        position: absolute;
-        width: 646px;
+        display:inlin-block;
+        width: 30%;
         height: 283px;
-        left: calc(50% - 646px/2 + 574px);
-        top: calc(50% - 283px/2 + 53.5px);
+        margin-top:0px;
+        margin-left:64%;
         
         font-family: aBigDeal;
         font-style: normal;
@@ -67,11 +67,12 @@
     }
 
     #ask3 {
-        position: absolute;
-        width: 646px;
+        display:inline-block;
+        width: 31%;
         height: 283px;
-        left: calc(50% - 646px/2 - 439px);
-        top: calc(50% - 283px/2 + 348.5px);
+        margin-top:0px;
+        margin-left: 10%;
+        
         
         font-family: aBigDeal;
         font-style: normal;
@@ -85,11 +86,11 @@
 
     #t1 {
         z-index: 90;
-        position: absolute;
-        width: 912px;
+        display:inline-block;
+        width: 48%;
         height: 200px;
-        right: 222px;
-        top: calc(50% - 200px/2 - 271px);
+        margin-top:224px;
+        margin-left:42%;
         
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -107,11 +108,11 @@
 
     #t2 {
         z-index: 90;
-        position: absolute;
-        width: 925px;
+        display:inline-block;
+        width: 48%;
         height: 193px;
-        left: calc(50% - 925px/2 - 299.5px);
-        top: calc(50% - 193px/2 + 8.5px);
+        margin-top:81px;
+        margin-left: 10%;
         
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -129,11 +130,11 @@
 
     #t3 {
         z-index: 90;
-        position: absolute;
-        width: 863px;
+        display:inline-block;
+        width: 48%;
         height: 193px;
-        left: calc(50% - 863px/2 + 306.5px);
-        top: calc(50% - 193px/2 + 303.5px);
+        margin-top:81px;
+        margin-left: 42%;
         
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -151,11 +152,11 @@
 
     #b1 {
         z-index: 90;
-        position: absolute;
+        display:inline-block;
         width: 189px;
         height: 59px;
-        left: calc(50% - 189px/2 + 643.5px);
-        top: calc(50% - 59px/2 + 443.5px);
+        margin-left:78%;
+        margin-top:23px;
         
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -188,23 +189,24 @@
         position: fixed;
         z-index: 100;
         height: 121px;
-        width: 1920px;
+        width: 100%;
         left: 0px;
         top: 0;
         border-radius: 0px;
 
         background: #E7E8E5;
         box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+        text-align: center;
 
     }
 
     #introduction {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 63px;
-        left: 220px;
-        top: 31.4599609375px;
-        padding: 12px, 17px, 12px, 17px;
+        height: 70px;  
+
+        margin-top:31px;
+
         transition: transform .2s;
         
     }
@@ -214,13 +216,12 @@
     }
 
     #interaction {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 71.39px;
-        left: 600px;
-        top: 31.46px;
+        height: 70px;  
+
+        margin-top:31px;
         transition: transform .2s;
-        
     }
 
     #interaction:hover {
@@ -228,11 +229,11 @@
     }
 
     #simulation {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 71.39px;
-        left: 978px;
-        top: 31.46px;
+        height: 70px;  
+
+        margin-top:31px;
         transition: transform .2s;
     }
 
@@ -242,11 +243,10 @@
 
 
     #submission {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 71.39px;
-        left: 1356px;
-        top: 31.46px;
+        height: 71px;  
+        margin-top:31px;
         transition: transform .2s;
     }
 
@@ -254,7 +254,7 @@
         transform: scale(1.1);
     }
 
-    
+
     /* Removing Content */ 
     #introduction1366 {
         display:none;
@@ -272,6 +272,10 @@
         display:none;
     }
 
+    #logo1366 {
+        display:none;
+    }
+
     /* Animation */
 
 
@@ -283,7 +287,7 @@
 
     * {
         position: relative;
-        width: 1366px;
+        width: 100%;
         height: 1366px;
         overflow-x: hidden;
         margin:0;
@@ -299,10 +303,10 @@
       -moz-appearance: textfield;
     }
 
-      
+       
     #FirstSection {
         position: absolute;
-        width: 1366px;
+        width: 100%;
         height: 1366px;
         left: 0;
         top: 0;
@@ -315,10 +319,10 @@
 
     #ask1 {
         display:block;
-        width: 646px;
+        width: 47%;
         height: 84px;
         margin-top:262px;
-        margin-left: 262px;
+        margin-left: 20%;
 
         font-family: aBigDeal;
         font-style: normal;
@@ -326,15 +330,15 @@
         font-size: 40px;
         line-height: 43px;
         
-        
+        text-align: left;
         color: #D5D2CD;
     }
 
     #ask2 {
         display:block;
-        width: 505px;
+        width: 37%;
         height: 92px;
-        margin-left:592px;
+        margin-left:43%;
         margin-top:146px;
         
         font-family: aBigDeal;
@@ -342,6 +346,7 @@
         font-weight: normal;
         font-size: 40px;
         line-height: 43px;
+        text-align: left;
         
         color: #D5D2CD;
     
@@ -349,9 +354,9 @@
 
     #ask3 {
         display:block;
-        width: 646px;
+        width: 47%;
         height: 98px;
-        margin-left: 262px;
+        margin-left: 20%;
         margin-top: 150px;
         
         font-family: aBigDeal;
@@ -359,18 +364,17 @@
         font-weight: normal;
         font-size: 40px;
         line-height: 43px;
+        text-align: left;
         
         color: #D5D2CD;
         
     }
-
-
     #t1 {
         z-index: 90;
         display:bock;
-        width: 847px;
+        width: 62%;
         height: 108px;
-        margin-left:254px;
+        margin-left:18%;
         margin-top:353px;
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -389,9 +393,9 @@
     #t2 {
         z-index: 90;
         display:bock;
-        width: 847px;
+        width: 62%;
         height: 108px;
-        margin-left:254px;
+        margin-left:18%;
         margin-top:121px;
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -410,9 +414,9 @@
     #t3 {
         z-index: 90;
         display:bock;
-        width: 847px;
+        width: 62%;
         height: 108px;
-        margin-left:254px;
+        margin-left:18%;
         margin-top:121px;
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -428,13 +432,18 @@
         color: #D5D2CD;
     }
 
+
     #b1 {
         z-index: 90;
-        display:bock;
         width: 189px;
         height: 59px;
-        margin-left:573px;
-        margin-top: 100px;
+
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        text-align: center;
+        margin-top:111px;
+
         
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -455,7 +464,6 @@
         cursor:pointer;
         transform: scale(1.1);
     }
-
     input {
         outline-style: none;
         box-shadow: none;
@@ -463,25 +471,28 @@
     }
     
 
-     /* NAVIGATION */
-     .topnav {
+       /* NAVIGATION */
+    .topnav {
         position: fixed;
         z-index: 100;
         height: 121px;
-        width: 1366px;
+        width: 100%;
         left: 0px;
         top: 0;
         border-radius: 0px;
         background: #E7E8E5;
         box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+        text-align: center;
     
   }
 
     #introduction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:135px;
+        margin-left:auto;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -490,10 +501,12 @@
     }
 
     #interaction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:101px;
+        margin-left:95px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -502,10 +515,12 @@
     }
     
     #simulation1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:101px;
+        margin-left:95px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -514,17 +529,19 @@
     }
 
     #submission1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:101px;
-        margin-right:150px;
+        margin-left:95px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
     #submission1366:hover {
         transform: scale(1.1);
     }
+
 
 
 
@@ -558,7 +575,7 @@
 
     * {
         position: relative;
-        width: 1366px;
+        width: 100%;
         height: 1366px;
         overflow-x: hidden;
         margin:0;
@@ -577,7 +594,7 @@
       
     #FirstSection {
         position: absolute;
-        width: 1024;
+        width: 100%;
         height: 1366px;
         left: 0;
         top: 0;
@@ -590,10 +607,10 @@
 
     #ask1 {
         display:block;
-        width: 646px;
+        width: 60%;
         height: 84px;
         margin-top:262px;
-        margin-left: 100px;
+        margin-left: 10%;
 
         font-family: aBigDeal;
         font-style: normal;
@@ -607,9 +624,9 @@
 
     #ask2 {
         display:block;
-        width: 505px;
+        width: 44%;
         height: 92px;
-        margin-left:450px;
+        margin-left: 10%;
         margin-top:146px;
         
         font-family: aBigDeal;
@@ -626,8 +643,8 @@
         display:block;
         width: 646px;
         height: 98px;
-        margin-left: 100px;
-        margin-top: 150px;
+        margin-left: 10%;
+        margin-top:150px;
         
         font-family: aBigDeal;
         font-style: normal;
@@ -643,9 +660,9 @@
     #t1 {
         z-index: 90;
         display:bock;
-        width: 847px;
+        width: 82%;
         height: 108px;
-        margin-left:100px;
+        margin-left:10%;
         margin-top:353px;
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -664,9 +681,9 @@
     #t2 {
         z-index: 90;
         display:bock;
-        width: 847px;
+        width: 82%;
         height: 108px;
-        margin-left:100px;
+        margin-left:10%;
         margin-top:121px;
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -685,9 +702,9 @@
     #t3 {
         z-index: 90;
         display:bock;
-        width: 847px;
+        width: 82%;
         height: 108px;
-        margin-left:100px;
+        margin-left:10%;
         margin-top:121px;
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -705,11 +722,14 @@
 
     #b1 {
         z-index: 90;
-        display:bock;
         width: 189px;
         height: 59px;
-        margin-left:400px;
-        margin-top: 100px;
+        margin-top:111px;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        text-align: center;
+
         
         background: #FD670B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -737,25 +757,29 @@
         border-color: transparent;
     }
 
-     /* NAVIGATION */
-     .topnav {
+
+    /* NAVIGATION */
+    .topnav {
         position: fixed;
         z-index: 100;
         height: 121px;
-        width: 1024px;
+        width: 100%;
         left: 0px;
         top: 0;
         border-radius: 0px;
         background: #E7E8E5;
         box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+        text-align: center;
     
   }
 
     #introduction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:50px;
+        margin-left:auto;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -764,10 +788,12 @@
     }
 
     #interaction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
         margin-left:50px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -776,10 +802,12 @@
     }
     
     #simulation1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
         margin-left:50px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -788,18 +816,18 @@
     }
 
     #submission1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
         margin-left:50px;
-
+        margin-right:auto;
         transition: transform .2s;
     }
 
     #submission1366:hover {
         transform: scale(1.1);
     }
-
 
 
   /* Removing Images */

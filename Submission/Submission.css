@@ -17,8 +17,8 @@
         width: 883px;
         height: 201px;
         margin-top:303px;
-        margin-left: 509px;
-        margin-right: 549px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: aBigDeal;
         font-style: normal;
         font-weight: normal;
@@ -33,8 +33,8 @@
         display:block;
         width: 264px;
         height: 128px;
-        margin-left: 811px;
-        margin-right: 504px;
+        margin-left: auto;
+        margin-right: auto;
         transition: transform .2s;
     }
     
@@ -44,19 +44,18 @@
 
     #content2 {
         display:block;
+        text-align: center;
     }
 
     #content2 img{
         width: 1218px;
         height: 381px;
-        margin-left: 347px;
         margin-top: 142px;
-        margin-right: 355px;
     }
 
     #content3to5 {
         margin-top: 79px;
-        margin-left: 263px;
+        text-align: center;
     }
 
     #content3 {
@@ -157,7 +156,7 @@
 
     #firstsectionbackground {
         position: absolute;
-        width: 1920px;
+        width: 100%;
         height: 6000px;
         left: 0px;
         top: 0px;
@@ -180,16 +179,17 @@
 
         background: #E7E8E5;
         box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+        text-align: center;
     
     }
 
     #introduction {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 63px;
-        left: 220px;
-        top: 31.4599609375px;
-        padding: 12px, 17px, 12px, 17px;
+        height: 70px;  
+
+        margin-top:31px;
+ 
         transition: transform .2s;
         
     }
@@ -199,13 +199,12 @@
     }
     
     #interaction {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 71.39px;
-        left: 600px;
-        top: 31.46px;
+        height: 70px;  
+
+        margin-top:31px;
         transition: transform .2s;
-        
     }
 
     #interaction:hover {
@@ -213,11 +212,11 @@
     }
 
     #simulation {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 71.39px;
-        left: 978px;
-        top: 31.46px;
+        height: 70px;  
+
+        margin-top:31px;
         transition: transform .2s;
     }
 
@@ -227,24 +226,16 @@
 
 
     #submission {
-        position: absolute;
+        display:inline-block;
         width: 343px;
-        height: 71.39px;
-        left: 1356px;
-        top: 31.46px;
+        height: 71px;  
+        margin-top:31px;
         transition: transform .2s;
     }
 
     #submission:hover {
         transform: scale(1.1);
     }
-
-
-    /* Animation */
-
-    
-
- /* NAVIGATION */
 
 
     /* Removing Content */ 
@@ -264,6 +255,15 @@
         display:none;
     }
     
+    #logo1366 {
+        display:none;
+    }
+
+    /* Animation */
+
+    
+
+ /* NAVIGATION */
 
 
 
@@ -290,8 +290,8 @@
         width: 892px;
         height: 155px;
         margin-top:240px;
-        margin-left: 250px;
-        margin-right: 250px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: aBigDeal;
         font-style: normal;
         font-weight: normal;
@@ -307,8 +307,8 @@
         width: 264px;
         height: 128px;
         margin-top: 30px;
-        margin-left: 533px;
-        margin-right: 638px;
+        margin-left: auto;
+        margin-right: auto;
         transition: transform .2s;
     }
     
@@ -322,18 +322,18 @@
 
     #content2 {
         display:block;
+        text-align: center;
     }
 
     #content2 img{
         width: 852px;
         height: 267px;
-        margin-left: 248px;
         margin-top: 31px;
     }
 
     #content3to5 {
         margin-top: 79px;
-        margin-left: 229px;
+        text-align: center;
     }
 
     #content3 {
@@ -516,25 +516,28 @@
         transform: scale(1.1);
     }
     
-    /* NAVIGATION */
-    .topnav {
+     /* NAVIGATION */
+     .topnav {
         position: fixed;
         z-index: 100;
         height: 121px;
-        width: 1366px;
+        width: 100%;
         left: 0px;
         top: 0;
         border-radius: 0px;
         background: #E7E8E5;
         box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
-
-    }
+        text-align: center;
+    
+  }
 
     #introduction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:135px;
+        margin-left:auto;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -543,22 +546,26 @@
     }
 
     #interaction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:101px;
+        margin-left:95px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
     #interaction1366:hover {
         transform: scale(1.1);
     }
-
+    
     #simulation1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:101px;
+        margin-left:95px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -567,11 +574,12 @@
     }
 
     #submission1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:101px;
-        margin-right:150px;
+        margin-left:95px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -581,7 +589,7 @@
 
 
 
-    /* Removing Images */
+  /* Removing Images */
     #introduction {
         display:none;
     }
@@ -598,7 +606,12 @@
         display:none;
     }
 
-    /* NAVIGATION */
+    #logo {
+        display:none;
+    }
+
+     /* NAVIGATION */
+
 }
 
 
@@ -624,8 +637,8 @@
         width: 892px;
         height: 155px;
         margin-top:240px;
-        margin-left: 64px;
-        margin-right: 250px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: aBigDeal;
         font-style: normal;
         font-weight: normal;
@@ -641,8 +654,8 @@
         width: 184px;
         height: 100px;
         margin-top: 30px;
-        margin-left: 405px;
-        margin-right: 638px;
+        margin-left: auto;
+        margin-right: auto;
         transition: transform .2s;
     }
     
@@ -656,18 +669,18 @@
 
     #content2 {
         display:block;
+        text-align: center;
     }
 
     #content2 img{
         width: 852px;
         height: 267px;
-        margin-left: 83px;
         margin-top: 31px;
     }
 
     #content3to5 {
         margin-top: 79px;
-        margin-left: 58px;
+        text-align: center;
     }
 
     #content3 {
@@ -781,25 +794,28 @@
 
 
 
-    /* NAVIGATION */
-    .topnav {
+     /* NAVIGATION */
+     .topnav {
         position: fixed;
         z-index: 100;
         height: 121px;
-        width: 1024px;
+        width: 100%;
         left: 0px;
         top: 0;
         border-radius: 0px;
         background: #E7E8E5;
         box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+        text-align: center;
     
   }
 
     #introduction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
-        margin-left:50px;
+        margin-left:auto;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -808,10 +824,12 @@
     }
 
     #interaction1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
         margin-left:50px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -820,10 +838,12 @@
     }
     
     #simulation1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
         margin-left:50px;
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -832,11 +852,12 @@
     }
 
     #submission1366 {
+        display:inline-block;
         width: 184px;
         height: 71.54px;
         margin-top:20px;
         margin-left:50px;
-
+        margin-right:auto;
         transition: transform .2s;
     }
 
@@ -863,6 +884,10 @@
         display:none;
     }
 
-         /* NAVIGATION */
+    #logo {
+        display:none;
+    }
+
+     /* NAVIGATION */
 
 }

@@ -3,12 +3,11 @@
     * {
         margin: 0;
         overflow-x: hidden;
-
     }
 
 
     #FirstSection {
-        width: 1918px;
+        width: 100%;
         height: 1178;
         top: 0;
         left: 0;     
@@ -30,7 +29,7 @@
         font-family: aBigDeal;
         font-style: normal;
         font-weight: normal;
-        font-size: 10rem;
+        font-size: 8.5rem;
         line-height: 155px;
         text-align: center;
         
@@ -70,7 +69,7 @@
     }
 
     #FirstSection {
-        width: 1366px;
+        width: 100%;
         height: auto;
         top: 0;
         left: 0;     
@@ -129,7 +128,7 @@
     }
 
     #FirstSection {
-        width: 1024px;
+        width: 100%;
         height: auto;
         top: 0;
         left: 0;     
