@@ -78,10 +78,10 @@
 
     #logo {
         position: absolute;
-        height: 895px;
-        width: 846px;
-        left: 537px;
-        top: 142px;
+        width: 491px;
+        height: 848px;
+        left: 720px;
+        top: 176px;
         border-radius: 0px;
         z-index: 99;
  
@@ -206,7 +206,7 @@
 
     #logo1366 {
         margin-top:177px;
-        margin-left:388px;
+        margin-left:500px;
     }
 
 
@@ -376,7 +376,7 @@
 
     #logo1366 {
         margin-top:200px;
-        margin-left:200px;
+        margin-left:314px;
     }
 
 
