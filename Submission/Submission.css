@@ -891,3 +891,282 @@
      /* NAVIGATION */
 
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1023px){
+    
+     
+    * {
+        top: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-y: hidden;
+    }
+
+
+    #content1 > h1{
+        display:block;
+        width: 353px;
+        height: 100px;
+        margin-top:117px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: aBigDeal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 32px;
+        text-align: center;
+        
+        color: #D00704;
+    }
+
+    #submit {
+        display:block;
+        width: 184px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: transform .2s;
+    }
+    
+    #submit:hover {
+        transform: scale(1.1);
+    }
+
+    #content1 {
+        overflow:hidden;
+    }
+
+    #content2 {
+        display:block;
+        text-align: center;
+    
+    }
+
+    #content2 img{
+        width: 368px;
+        height: 111px;
+        margin-top: 31px;
+        margin-left: 1%;
+    }
+
+    #content3to5 {
+        margin-top: 17px;
+        text-align: center;
+    }
+
+    #content3 {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+        overflow: hidden;
+    }  
+    #content3 img {
+        width: 122px;
+        height: 122px;
+        margin: 0px;
+    }
+
+    #content4 {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+        overflow: hidden;
+    }  
+    #content4 img {
+        width: 122px;
+        height: 122px;
+        margin: 0px;
+    }
+
+    #content5 {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+        overflow: hidden;
+    }  
+    #content5 img {
+        width: 122px;
+        height: 122px;
+        margin: 0px;
+    }
+
+    /* SIBLING FADE: fade out siblings around a hovered item */
+
+    #content3 { visibility: hidden; }
+    /* Prevents :hover from triggering in the gaps between items */
+
+    #content3 > * { visibility: visible; }
+    /* Brings the child items back in, even though the parent is `hidden` */
+
+    #content3 > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+    /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+    #content3 > * { opacity: 0.4; transform: scale(0.9); }
+    /* Fade out all items when the parent is hovered */
+
+    #content3 > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+    /* Fade in the currently hovered item */
+
+
+
+
+
+   /* SIBLING FADE: fade out siblings around a hovered item */
+
+   #content4 { visibility: hidden; }
+   /* Prevents :hover from triggering in the gaps between items */
+
+   #content4 > * { visibility: visible; }
+   /* Brings the child items back in, even though the parent is `hidden` */
+
+   #content4 > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+   /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+   #content4 > * { opacity: 0.4; transform: scale(0.9); }
+   /* Fade out all items when the parent is hovered */
+
+   #content4 > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+   /* Fade in the currently hovered item */
+
+
+
+
+
+   /* SIBLING FADE: fade out siblings around a hovered item */
+
+   #content5 { visibility: hidden; }
+   /* Prevents :hover from triggering in the gaps between items */
+
+   #content5 > * { visibility: visible; }
+   /* Brings the child items back in, even though the parent is `hidden` */
+
+   #content5 > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+   /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+   #content5 > * { opacity: 0.4; transform: scale(0.9); }
+   /* Fade out all items when the parent is hovered */
+
+   #content5 > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+   /* Fade in the currently hovered item */
+
+
+    #firstsectionbackground {
+        position: absolute;
+        width: 100%;
+        height: 1871px;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        background-image: url("Background428.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    
+    /* NAVIGATION */
+    .topnav {
+        position: fixed;
+        z-index: 100;
+        height: 76px;
+        width: 100%;
+        left: 0px;
+        top: 0;
+        border-radius: 0px;
+        background: #E7E8E5;
+        box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+    
+  }
+
+    #introduction1366 {
+        display:inline-block;
+        width: 76.91px;
+        height: 32.14px;
+        margin-top:25px;
+        margin-left:auto;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #introduction1366:hover {
+        transform: scale(1.1);
+    }
+
+    #interaction1366 {
+        display:inline-block;
+        width: 76.46px;
+        height: 32.43px;
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #interaction1366:hover {
+        transform: scale(1.1);
+    }
+    
+    #simulation1366 {
+        display:inline-block;
+        width: 76.46px;
+        height: 32.43px;
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #simulation1366:hover {
+        transform: scale(1.1);
+    }
+
+    #submission1366 {
+        display:inline-block;
+        width: 76.46px;
+        height: 32.43px;
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #submission1366:hover {
+        transform: scale(1.1);
+    }
+
+
+
+  /* Removing Images */
+    #introduction {
+        display:none;
+    }
+
+    #simulation {
+        display:none;
+    }
+
+    #interaction {
+        display:none;
+    }
+
+    #submission {
+        display:none;
+    }
+
+    #logo {
+        display:none;
+    }
+
+     /* NAVIGATION */
+
+
+}

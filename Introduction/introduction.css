@@ -566,3 +566,192 @@
 
 
  }
+
+
+ @media only screen and (min-width: 0px) and (max-width: 1023px){
+    * {
+        overflow-x: hidden;
+        margin: 0;
+    }
+    
+    #FirstSection {
+        width: 100%;
+        height: 535px;
+        background-image: url("background427.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #logo1366 {
+        width: 199px;
+        height: 344px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 141px;
+        text-align: center;
+    }
+
+
+    #SecondSection {
+        width: 100%;
+        height: 872px;
+        margin-top: 0px;
+        background-image: url("background2427.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow:hidden;
+    }
+    
+    #submit1 {
+        display:block;
+        width: 248px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:60px;
+        
+        
+        transition: transform .5s;
+    }
+
+    #submit1:hover {
+        transform: scale(1.1);
+    }
+
+    #submit2 {
+        display:block;
+        width: 248px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:12px;
+        
+        transition: transform .5s;
+    }
+
+    #submit2:hover {
+        transform: scale(1.05);
+    }
+
+    #submit3 {
+        display:block;
+        width: 248px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:12px;
+        transition: transform .5s;
+    }
+
+    #submit3:hover {
+        transform: scale(1.05);
+    }
+
+
+
+
+
+
+    /* NAVIGATION */
+    .topnav {
+        position: fixed;
+        z-index: 100;
+        height: 76px;
+        width: 100%;
+        left: 0px;
+        top: 0;
+        border-radius: 0px;
+        background: #E7E8E5;
+        box-shadow: 0px 4px 10px rgba(7, 7, 7, 0.59);
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+    
+  }
+
+    #introduction1366 {
+        display:inline-block;
+        width: 76.91px;
+        height: 32.14px;
+        margin-top:25px;
+        margin-left:auto;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #introduction1366:hover {
+        transform: scale(1.1);
+    }
+
+    #interaction1366 {
+        display:inline-block;
+        width: 76.46px;
+        height: 32.43px;
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #interaction1366:hover {
+        transform: scale(1.1);
+    }
+    
+    #simulation1366 {
+        display:inline-block;
+        width: 76.46px;
+        height: 32.43px;
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #simulation1366:hover {
+        transform: scale(1.1);
+    }
+
+    #submission1366 {
+        display:inline-block;
+        width: 76.46px;
+        height: 32.43px;
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:auto;
+        transition: transform .2s;
+    }
+
+    #submission1366:hover {
+        transform: scale(1.1);
+    }
+
+
+
+  /* Removing Images */
+    #introduction {
+        display:none;
+    }
+
+    #simulation {
+        display:none;
+    }
+
+    #interaction {
+        display:none;
+    }
+
+    #submission {
+        display:none;
+    }
+
+    #logo {
+        display:none;
+    }
+
+     /* NAVIGATION */
+
+ }

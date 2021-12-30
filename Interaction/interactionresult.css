@@ -176,3 +176,66 @@
     }
  
 }
+
+
+@media only screen and (min-width: 0px) and (max-width: 1023px){
+
+
+    
+
+    * {
+        margin: 0;
+        overflow-x: hidden;
+
+    }
+
+    #FirstSection {
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;     
+    }
+
+    #forgap {
+        background-image: url("Background21024.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 400px;
+    }
+
+    
+    h1 {
+        margin: 22.8% 16.7% 0;
+        
+        
+        font-family: aBigDeal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 4rem;
+        line-height: 62px;
+        text-align: center;
+        
+        color: #D00704;
+    }
+
+    #back {
+        width: 155px;
+        height: 49px;
+        margin-left:auto;
+        margin-top:100px;
+        margin-right:auto;
+        transition: transform .2s;
+        display:block;
+    }
+
+    #back:hover {
+        transform: scale(1.1);
+    }
+
+    #emptyspace {
+        padding: 50px;
+    }
+
+
+}
