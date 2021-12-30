@@ -952,6 +952,7 @@
         height: 111px;
         margin-top: 31px;
         margin-left: 1%;
+
     }
 
     #content3to5 {
@@ -964,10 +965,11 @@
         flex-wrap: nowrap;
         display: inline-block;
         overflow: hidden;
+
     }  
     #content3 img {
-        width: 122px;
-        height: 122px;
+        width: 110px;
+        height: 110px;
         margin: 0px;
     }
 
@@ -976,10 +978,11 @@
         flex-wrap: nowrap;
         display: inline-block;
         overflow: hidden;
+
     }  
     #content4 img {
-        width: 122px;
-        height: 122px;
+        width: 110px;
+        height: 110px;
         margin: 0px;
     }
 
@@ -990,8 +993,8 @@
         overflow: hidden;
     }  
     #content5 img {
-        width: 122px;
-        height: 122px;
+        width: 110px;
+        height: 110px;
         margin: 0px;
     }
 
