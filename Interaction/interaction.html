@@ -49,11 +49,11 @@
 
     <div id="for1920up">
                 <form autocomplete="off" action="interactionresult.html" method="GET">
-                    <input type="number" placeholder="IN YEARS" id="t1">
-                    <input type="text" placeholder="YOUR REGRETS" id="t2">
-                    <input type="number" placeholder="IN YEARS" id="t3">
+                    <input type="number" placeholder="IN YEARS" id="t12">
+                    <input type="text" placeholder="YOUR REGRETS" id="t22">
+                    <input type="number" placeholder="IN YEARS" id="t32">
                 
-                    <input type="submit" value="Enter" id="b1" onclick="calculator()">
+                    <input type="submit" value="Enter" id="b12" onclick="calculator()">
             
                 </form> 
                 
@@ -80,15 +80,17 @@
         console.log (results)
         sessionStorage.setItem ("Results", results)
         sessionStorage.setItem ("Regrets", Ans2)
+    } 
 
+    function calculator() {
+        let Ans1 = parseInt(document.getElementById("t12").value)
+        let Ans2 = document.getElementById("t22").value
+        let Ans3 = parseFloat(document.getElementById("t32").value)
 
-
-/*
-        document.write("<h1> You spent <h1>")
-        document.write(results);
-        document.write("<h1> % Of your live <h1>")
-        document.write(Ans2);
-*/
+        let results = Math.round(Ans3/Ans1 * 100) 
+        console.log (results)
+        sessionStorage.setItem ("Results", results)
+        sessionStorage.setItem ("Regrets", Ans2)
     }
 
 </script>
